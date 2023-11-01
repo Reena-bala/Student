@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+.header{
+height: 100vh;
+    width: 100%;
+    background-image:url(https://img.freepik.com/free-photo/blue-wall-background_53876-88663.jpg?size=626&ext=jpg&ga=GA1.1.1922180658.1686294837&semt=sph);
+    
+}
+nav ul{
+display: flex;
+list-style: none;
+background-color: aqua;
+margin-left: 202px;
+position: fixed;
+margin-top: -307px;
+text-decoration: none;
+height: 50px;
+border: 2px solid black;
+width: 100%;
+float: left;
+    }
+nav ul li{
+     display: inline-block;
+    margin-top: 15px;
+}
+li a{
+    margin-left: 190px;
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+}
+.main-text{
+    margin: 15% auto;
+    text-align: center;
+}
+.main-text h1{
+    font-size: 50px;
+}
+.main-text .button{
+    text-decoration: none;
+    display: block;
+    width: 140px;
+    height: 35px;
+    margin: 25px auto;
+    color: black;
+    line-height: 35px;
+    border: 1px solid #fff;
+}
+.button:hover{
+    background: yellow;
+    color: black:s
+        transition: 0.5s;
+}
